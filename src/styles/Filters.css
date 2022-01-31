@@ -1,0 +1,66 @@
+.filters-bar {
+  display: flex;
+  background-color: rgb(210, 105, 30);
+  color: white;
+  padding: 5px 10px;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.filter-switch {
+  color: black;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  transition: ease-in-out 0.1s;
+}
+
+.filter-switch:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.filters input,
+.filters select {
+  border: 1px solid rgb(230, 230, 230);
+  padding: 5px 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: white;
+  font-size: 0.9em;
+}
+
+.filters input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.filter-name {
+  padding: 15px 10px 3px 8px;
+  font-weight: 700;
+}
+
+.age input,
+.strength input,
+.exp-date input {
+  width: 40%;
+}
+
+.gender select,
+.unit select,
+.form select {
+  width: 90%;
+}
+
+.age,
+.gender,
+.unit,
+.strength,
+.form,
+.exp-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.filters input.filled {
+  border-bottom: rgb(210, 105, 30) 2px solid;
+}

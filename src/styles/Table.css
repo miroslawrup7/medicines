@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+tr {
+  background-color: white;
+}
+
+.color td {
+  border-bottom: solid 1px rgb(100, 255, 100);
+}
+
+table th {
+  top: 0;
+  position: sticky;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.7);
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(245, 255, 245);
+}
+table tr:hover {
+  background-color: rgb(150, 255, 150);
+  cursor: default;
+}
+
+table th.filled {
+  color: rgb(210, 105, 30);
+}
