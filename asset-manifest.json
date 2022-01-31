@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/medicines/static/css/main.12ce7a4b.css",
+    "main.js": "/medicines/static/js/main.0fea96ec.js",
+    "static/media/doctor.jpg": "/medicines/static/media/doctor.3882d7d196c85887e079.jpg",
+    "index.html": "/medicines/index.html",
+    "main.12ce7a4b.css.map": "/medicines/static/css/main.12ce7a4b.css.map",
+    "main.0fea96ec.js.map": "/medicines/static/js/main.0fea96ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ce7a4b.css",
+    "static/js/main.0fea96ec.js"
+  ]
+}
